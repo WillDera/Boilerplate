@@ -34,5 +34,5 @@ DATABASES = {
 # Incase of using technologies like stripe or any that provides keys
 # for the users
 
-SOMETHING_PUBLIC_KEY = 'your-public-key'
-SOMETHING_SECRET_KEY = 'your-secret-key'
+SOMETHING_PUBLIC_KEY = config('api_PUBLIC_KEY')
+SOMETHING_SECRET_KEY = config('api_SECRET_KEY')
