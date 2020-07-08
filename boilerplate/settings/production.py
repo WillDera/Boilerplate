@@ -30,3 +30,9 @@ DATABASES = {
         'PORT': ''
     }
 }
+
+# Incase of using technologies like stripe or any that provides keys
+# for the users
+
+SOMETHING_PUBLIC_KEY = 'your-public-key'
+SOMETHING_SECRET_KEY = 'your-secret-key'
